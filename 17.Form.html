@@ -78,20 +78,21 @@
                     <button class="btn btn-danger">ส่งข้อมูล</button>
             </form>
         </div>
-        <!-- Validation -->
-        <div>
-            <label for="name">ชื่อ</label>
-            <input type="text" placeholder="กรุณาป้อนชื่อ">
+        <div class="container" style="margin-top: 20px;">
+            <!-- Validation -->
+            <div class="mb-3">
+                <label for="name" class="form-label">ชื่อ</label>
+                <input type="text" placeholder="กรุณาป้อนชื่อ" class="form-control is-valid">
+            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label">อีเมล</label>
+                <input type="email" placeholder="กรุณาป้อนอีเมล" class="form-control is-invalid">
+            </div>
+            <div class="mb-3">
+                <label for="password" class="form-label">รหัสผ่าน</label>
+                <input type="password" placeholder="กรุณาป้อนรหัสผ่าน" class="form-control is-invalid">
+                <div class="invalid-feedback">ป้อนรหัสผ่านไม่ถูกต้อง</div>
+            </div>
         </div>
-        <div>
-            <label for="email">อีเมล</label>
-            <input type="email" placeholder="กรุณาป้อนอีเมล">
-        </div>
-        <div>
-            <label for="password">รหัสผ่าน</label>
-            <input type="password" placeholder="กรุณาป้อนรหัสผ่าน">
-            <div>ป้อนรหัสผ่านไม่ถูกต้อง</div>
-        </div>
-    </div>
 </body>
 </html>
