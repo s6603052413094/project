@@ -9,7 +9,7 @@
 </head>
 <body>
     <div class="container" style="margin-top: 20px;">
-        <form> 
+        <> 
             <!-- Text Field -->
             <div class="mb-3">
                 <label for="name">ชื่อ</label>
@@ -61,24 +61,23 @@
                     <input type="submit" name="" id="" value="บันทึกข้อมูล" class="btn-success">
                 </form>
             </div>
-        <!-- Form Check -->
-        <form>
-            <div>
-                <label>ชื่อ</label>
-                <input type="text" placeholder="กรุณาป้อนชื่อ">
-            </div>
-            <div>
-                <label>รหัสผ่าน</label>
-                <input type="password" placeholder="กรุณาป้อนรหัสผ่าน">
-            </div>
-            <div>
-                <label>
-                    <input type="checkbox" name="">ฉันยอมรับเงื่อนไข
-                </label>
-            </div>
-            <button>ส่งข้อมูล</button>
-        </form>
-        <br>
+            <div class="container" style="margin-top: 20px;">
+                <!-- Form Check -->
+                <form class="mb-3">
+                    <div>
+                        <label class="form-label">ชื่อ</label>
+                        <input type="text" placeholder="กรุณาป้อนชื่อ" class="form-control">
+                    </div>
+                    <div>
+                        <label class="form-label">รหัสผ่าน</label>
+                        <input type="password" placeholder="กรุณาป้อนรหัสผ่าน" class="form-control">
+                    </div>
+                    <div class="form-check">
+                        <label><input type="checkbox" name="">ฉันยอมรับเงื่อนไข</label>
+                    </div>
+                    <button class="btn btn-danger">ส่งข้อมูล</button>
+            </form>
+        </div>
         <!-- Validation -->
         <div>
             <label for="name">ชื่อ</label>
