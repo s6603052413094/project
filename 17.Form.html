@@ -15,7 +15,7 @@
                 <label for="name">ชื่อ</label>
                 <input type="text" placeholder="กรุณาป้อนชื่อ">
             </div>
-            <div class="mb-3">
+            <div class="mb-">
                 <label for="email">อีเมล</label>
                 <input type="email" placeholder="กรุณาป้อนอีเมล">
             </div>
@@ -23,16 +23,20 @@
                 <label for="password">รหัสผ่าน</label>
                 <input type="password" placeholder="กรุณาป้อนรหัสผ่าน">
             </div>
-            <!-- Select -->
-            <div>
-                <label for="job">อาชีพ</label>
-                <select name="job" >
-                    <option>Programmer</option>
-                    <option>Developer</option>
-                    <option>อาจารย์</option>
-                    <option>ทนายความ</option>
-                </select>
-            </div>
+            <div class="container" style="margin-top: 20px;">
+                <form>
+                    <!-- Select -->
+                    <div class="mb-3">
+                        <label for="job" class="form-label">อาชีพ</label>
+                        <select   select name="job" class="form-select" >
+                            <option>Programmer</option>
+                            <option>Developer</option>
+                            <option>อาจารย์</option>
+                            <option>ทนายความ</option>
+                        </select>
+                    </div>
+                </form>
+            </div>             
             <!-- TextArea -->
             <div>
                 <label>ที่อยู่</label>
